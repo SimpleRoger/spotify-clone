@@ -24,7 +24,7 @@ const ListItem: React.FC<ListItemProps> = ({ image, name, href }) => {
       >
         <div
           className="relative
-        min-h[64px]
+        min-h-[64px]
         min-w-[64px]"
         >
           <Image className="object-cover" src={image} fill alt="Image" />
